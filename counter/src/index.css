@@ -1,0 +1,84 @@
+/* src/App.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.counter-app {
+  text-align: center;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 350px;
+}
+
+.counter-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.counter-display {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background: #f0f4f8;
+  border-radius: 12px;
+  min-width: 120px;
+  display: inline-block;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+
+.increment {
+  background: #4caf50;
+  color: white;
+}
+
+.increment:hover {
+  background: #3e8e41;
+}
+
+.decrement {
+  background: #f44336;
+  color: white;
+}
+
+.decrement:hover {
+  background: #d32f2f;
+}
+
+.reset {
+  background: #2196f3;
+  color: white;
+}
+
+.reset:hover {
+  background: #0b7dda;
+}
